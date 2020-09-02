@@ -17,7 +17,7 @@ int main(){ //main funtion
         A = X; //set A to X
         X = A + mark * dx;
     }
-    double xmin = X; //set min function
+    double xmin = X; //set min function, can't use auto because C-11 issues
     printf("xmin = %lf\n", xmin);
     printf("f(%lf) = %lf\n",xmin, sin(xmin));
 }
