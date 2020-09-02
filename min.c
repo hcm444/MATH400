@@ -1,8 +1,5 @@
 #include <stdio.h>
-
-
 #define N 1000
-
 void main(void) {
  float i, a, b, sum = 0;
  printf(
@@ -16,13 +13,11 @@ void main(void) {
   a = b;
   b = i;
  }
-
  for (i = a; i < b; i += (b - a) / N) {
   /* Define your function below, and include the suitable header files */
   y = x * x + 2 * x - 4;
   sum += y * (b - a) / N;
  }
-
  printf("nnValue of integration is:%.3f", sum);
  getch();
  return;
