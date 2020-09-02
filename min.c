@@ -1,8 +1,5 @@
 #include <stdio.h>
-/* Propram to perform definite integration of a given function between
- two boundary limits input by user. Feel free to use and modify it, but
- please do not remove this comment.
- source: C for Engineering, http://c4engineering.hypermart.net */
+
 
 #define N 1000
 
