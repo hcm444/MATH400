@@ -19,6 +19,6 @@ int main(){ //main funtion
     }
     double xmin = X; //set min function, can't use auto because C-11 issues
     printf("xmin = %lf\n", xmin);
-    printf("f(%lf) = %lf\n",xmin, sin(xmin));
+    printf("f(%lf) = %lf\n",xmin, sin(xmin)); //print funcs
 }
 
