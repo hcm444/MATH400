@@ -20,4 +20,5 @@ int main(){ //main funtion
     auto xmin = x; //set min function
     printf("xmin = %lf, f(%lf) = %lf\n", xmin, xmin, sin(xmin)); //define func
 }
+//output:
 //xmin = -1.570764, f(-1.570764) = -1.000000
